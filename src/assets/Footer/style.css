@@ -1,0 +1,58 @@
+.footerCont {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: #c4c4c4;
+  display: inline-block;
+  margin: 8px 0;
+  transition: color 0.3s;
+}
+
+ul a:hover {
+  color: #6C5DD3;
+}
+
+.list1 p {
+  max-width: 220px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #c4c4c4;
+}
+
+.list2, .list3 {
+  min-width: 150px;
+}
+
+.list2 li:first-child,
+.list3 li:first-child {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.icons a {
+  font-size: 18px;
+  color: #c4c4c4;
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: #ffffff;
+}

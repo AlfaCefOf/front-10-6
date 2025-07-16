@@ -1,0 +1,91 @@
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(to right, #984D38, #181E41);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0 147px 0;
+}
+
+.leftSide {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.leftSide input {
+    border-radius: 184px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 0.5px solid #FFFFFF80;
+    padding: 7px 20px 7px 30px;
+}
+
+.leftSide div {
+    position: relative;
+}
+
+.leftSide div i {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    font-size: 17px;
+}
+
+.leftSide p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.leftSide p:hover {
+    transition: 0.3s ease;
+    color: #6C5DD3;
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rightSide i {
+    font-size: 20px;
+}
+
+.rightSide i:hover {
+    font-size: 20px;
+    color: #6C5DD3;
+    transition: 0.4s ease;
+}
+
+.rightSide button {
+    color: #FFFFFF;
+    border: 0.5px solid #FFFFFF;
+    padding: 9px 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.secondLine {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.item-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
